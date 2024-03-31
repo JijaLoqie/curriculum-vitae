@@ -15,7 +15,7 @@ const createColor = (mainColor) => augmentColor({
 export const customPalette = {
   text: "#050315",
   background: "#fbfbfe",
-  primary: "#2f27ce",
+  primary: "#ffffff",
   secondary: "#dedcff",
   accent: "#fd4aea",
 };
@@ -40,9 +40,7 @@ export const baseTheme = createTheme({
     ...customMuiPalette,
   },
   typography: {
-    caption: {
-      color: "#999999",
-    }
+    fontFamily: '"Warnock Pro","Palatino Nova","Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif',
   },
 })
 

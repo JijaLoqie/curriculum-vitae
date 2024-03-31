@@ -1,4 +1,4 @@
-export const Data = {
+export const DmitryData = {
   firstName: 'Дмитрий',
   lastName: 'Красковский',
   position: 'Frontend Developer',
